@@ -79,12 +79,28 @@ main hr {
     color: gray;
 }
 button{
-    /* border: 2px solid red; */
-    padding: 8px;
+   
     border-radius: 4px ;
-    font-size: 20px;
+    font-size: 30px;
     border-style: none;
+    cursor: pointer;
+    /* background-color: rgb(191, 45, 208); */
 
+
+}
+button:hover{
+    background:#0c0d37;
+    
+}
+.btn{
+    color: #fff;
+    background:#1e2167;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
 }
 
 .rightSection img {
