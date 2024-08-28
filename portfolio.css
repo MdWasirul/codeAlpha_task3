@@ -78,6 +78,14 @@ main hr {
 .text-grey {
     color: gray;
 }
+button{
+    /* border: 2px solid red; */
+    padding: 8px;
+    border-radius: 4px ;
+    font-size: 20px;
+    border-style: none;
+
+}
 
 .rightSection img {
     width: 80%;
