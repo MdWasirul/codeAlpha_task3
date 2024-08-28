@@ -140,3 +140,30 @@ main hr {
     color: gray;
     font-size: 10px;
 }
+footer{
+    background-color: #15192c;
+    /* height: 250px; */
+    
+}
+.footer{
+    display:flex;
+    padding: 4px;
+    padding: 22px 122px;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+}
+.footer ul {
+    list-style: none;
+}
+.footer div{
+    width: 103px;
+    margin:4px;
+    padding: 4px;
+
+}
+footer .footer-rights{
+    /* margin-top: 20px; */
+    padding: 15px ;
+    text-align: center;
+    color: gray;
+}
