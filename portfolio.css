@@ -78,16 +78,6 @@ main hr {
 .text-grey {
     color: gray;
 }
-button{
-   
-    border-radius: 4px ;
-    font-size: 30px;
-    border-style: none;
-    cursor: pointer;
-    /* background-color: rgb(191, 45, 208); */
-
-
-}
 button:hover{
     background:#0c0d37;
     
