@@ -45,12 +45,18 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(132, 223, 42);
 }
+main hr{
+ margin: 40px 80px ;
+ border: 0;
+ background: #9c97f1;
+ height: 1.2px;
+}
 
 .first-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 80px 0px;
+    margin: 110px 0px;
 }
 
 .first-section>div {
@@ -67,6 +73,9 @@ nav ul li a:hover {
 .purple {
     color: aqua;
 }
+.text-grey{
+    color: gray;
+}
 
 .rightSection img {
     width: 80%;
@@ -75,4 +84,12 @@ nav ul li a:hover {
 
 #element {
     color: rgb(15, 247, 247);
+}
+.second-section{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.second-section h1{
+    font-size: 1.9rem;
 }
