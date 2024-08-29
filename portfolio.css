@@ -118,8 +118,7 @@ button:hover{
     margin: 64px 0px;
     background: white;
     display: flex;
-    /* justify-content: space-around;
-    align-items: baseline; */
+
 }
 
 .second-section .vertical {
@@ -140,11 +139,6 @@ button:hover{
     position: relative;
     top: 60px;
     width: 150px;
-    /* font-size: 15px; */
-
-
-
-
 }
 
 .vertical-desc {
@@ -180,4 +174,52 @@ footer .footer-rights{
     padding: 15px ;
     text-align: center;
     color: gray;
+}
+.enquiryForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.email{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.email h1{
+    position: relative;
+    top: -60px ;
+    left: 100px ;
+    margin: 10px;
+    color: red;
+}
+.mail-id{
+    font-size: 20px;
+    padding: 14px;
+    border-radius: 15px;
+    outline-color: #2af745;
+    border-style: hidden;
+    margin-right: 10px ;
+
+}
+input{
+    width: 25vw;
+}
+.subs-btn{
+    position: relative;
+    left: -339px ;
+    
+}
+.subs-btn button {
+    border: 2px solid rgb(43, 43, 88);
+    padding: 14px ;
+    width: 14vw ;
+    font-family: cursive;
+    font-size: x-large;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    background:#ee4b0a;
+    border-style: hidden;
 }
